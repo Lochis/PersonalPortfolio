@@ -202,11 +202,16 @@ a {
   margin-left: 1vw;
   color: white;
   top: 0;
+  position: relative;
+  transition: all 0.5s ease-out;
 }
 
 #social-links {
   display: grid-inline;
   margin-top: 2vh;
+  top:0;
+  position: relative;
+  transition: all 0.5s ease-out;
 }
 
 #social-links:hover i {
@@ -230,6 +235,4 @@ a {
   padding-bottom: 5vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  position: relative;
-  transition: all 0.5s ease-out;
 }
