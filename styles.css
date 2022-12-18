@@ -214,10 +214,13 @@ a {
   transition: all 0.5s ease-out;
 }
 
-#social-links:hover i {
+#social-links:hover a {
   top: -10px;
 }
 
+#social-links a {
+  top: 0x;
+}
 
 #navbar i {
   font-size: 3rem;
