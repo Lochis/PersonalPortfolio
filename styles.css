@@ -215,12 +215,13 @@ a {
   margin-right: 1vw;
   margin-left: 1vw;
   color: white;
+  transition: all 0.5s ease-out;
+  top: 0;
 }
 
 #social-links {
   display: grid-inline;
   margin-top: 2vh;
-  transition: all 0.5s ease-out;
 }
 
 #social-links:hover i {
