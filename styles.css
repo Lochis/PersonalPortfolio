@@ -204,6 +204,7 @@ a {
   padding-bottom: 5vh;
   padding-left: 5vw;
   padding-right: 5vw;
+  transition: all 0.5s ease-out;
 }
 
 #contact-items {
@@ -215,7 +216,6 @@ a {
   margin-right: 1vw;
   margin-left: 1vw;
   color: white;
-  transition: all 0.5s ease-out;
   top: 0;
 }
 
