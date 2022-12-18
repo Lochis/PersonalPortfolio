@@ -230,5 +230,6 @@ a {
   padding-bottom: 5vh;
   padding-left: 5vw;
   padding-right: 5vw;
+  position: relative;
   transition: all 0.5s ease-out;
 }
