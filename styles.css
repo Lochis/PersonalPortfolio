@@ -108,13 +108,15 @@ a {
 }
 
 #project-tiles {
+  position: relative;
+  transition: all 0.5s ease-out;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   gap: 20px;
   padding-top: 5vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   padding-bottom: 5vh;
 }
 
@@ -138,14 +140,14 @@ a {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 655px) {
   #project-tiles {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
 
   #projects {
-    height: 250vh;
+    height: 200vh;
   }
 }
 
@@ -211,15 +213,17 @@ a {
   margin-top: 2vh;
   top:0;
   position: relative;
+  
+}
+
+#social-links a {
+  position: relative;
   transition: all 0.5s ease-out;
+  top: 0px;
 }
 
 #social-links a:hover{
   top: -10px;
-}
-
-#social-links a {
-  top: 0x;
 }
 
 #navbar i {
