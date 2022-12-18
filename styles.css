@@ -192,21 +192,6 @@ a {
   color: black;
 }
 
-#contact {
-  width: 100vw;
-  height: 90vh;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#474F4B, #242726);
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  transition: all 0.5s ease-out;
-}
-
 #contact-items {
   display: block;
 }
@@ -231,4 +216,19 @@ a {
 
 #navbar i {
   font-size: 3rem;
+}
+
+#contact {
+  width: 100vw;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#474F4B, #242726);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  transition: all 0.5s ease-out;
 }
